@@ -11,4 +11,11 @@ export class SidenavComponent {
   collapsed = false;
   navData = navbarData;
 
+  toggleCollapse(): void {
+    this.collapsed = !this.collapsed;
+  }
+
+  closeSidenav(): void {
+    this.collapsed = false
+  }
 }
