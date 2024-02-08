@@ -8,11 +8,10 @@
   height: 100vh;
   box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
 
-
   .logo-container {
     display: flex;
     align-items: center;
-    padding: 0.938rem, 0 1.25rem, 0 0.938rem;
+    padding: 0.938rem 0.938rem 0 0.938rem;
     width: 100%;
 
     .logo {
@@ -26,14 +25,14 @@
       font-weight: 900;
       cursor: pointer;
       border: none;
-  }
+    }
 
     .logo-text {
       margin-left: 1.5rem;
       font-size: 24px;
       font-weight: 700;
       color: #fff;
-  }
+    }
 
     .btn-close {
       margin-left: auto;
